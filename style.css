@@ -1,4 +1,55 @@
-body {background-color:tan;}
-h1{color:green;}
+html {
+    height: 100%;
+    width: 100%;
+}
 
+body {
+        background-color:black;
+        font-family:arial;
+        font-weight:bold;
+        color:white;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        min-height:90%;
+     }
+h1{
+    color:grey;
+    font-family:verdana;
+    text-align:center;
+    }
+.maindiv{    
+    background-color:white;
+    color:black;
+    width:480px;
+    padding:20px;
+    border-radius:25px; 
 
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.titlediv {    
+    width:600px;
+}
+.inputdiv {
+    width:330px;
+    padding: 20px;
+}
+.footerdiv {
+    width:450px;
+}
+
+label {
+    display:inline-block;
+    width: 125px;
+    box-sizing: border-box;
+}
+
+#principal {
+    width: 145px;
+}
+
+#compute {
+    width: 130px;
+}
