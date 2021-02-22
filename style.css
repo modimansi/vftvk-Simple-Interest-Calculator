@@ -47,9 +47,21 @@ label {
 }
 
 #principal {
-    width: 145px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 #compute {
-    width: 130px;
+    width: 150px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#years {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
 }
